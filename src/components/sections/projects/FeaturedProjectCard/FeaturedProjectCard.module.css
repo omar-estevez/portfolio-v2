@@ -1,0 +1,15 @@
+.list__item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    color: var(--color-text-secondary);
+
+    .icon {
+        color: var(--color-primary);
+    }
+
+    .list__text {
+        font-size: 0.975rem;
+    }
+}

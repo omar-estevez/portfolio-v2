@@ -1,0 +1,45 @@
+:root {
+    /* COLORS */
+    --color-bg: #0b0f14;
+    --color-bg-secondary: #17212b;
+    --color-secondary-hover: #1e2a36;
+    --color-surface: #121922;
+    --color-elevated: #17212b;
+
+    --color-primary: #14b8c4;
+    --color-primary-hover: #0ea5b7;
+    --color-primary-soft: rgba(20, 184, 196, 0.15);
+
+    --color-text: #f3f7fb;
+    --color-text-secondary: #c4cfdb;
+    --color-muted: #8c98a6;
+
+    --color-border: rgba(255, 255, 255, 0.08);
+
+    /* TYPOGRAPHY */
+    --font-primary: "Inter", system-ui, -apple-system, sans-serif;
+    --font-heading: "Playfair Display", serif;
+
+    /* SIZES */
+    --container-width: 1200px;
+
+    /* SPACING */
+    --section-padding: 100px;
+    --gap-lg: 48px;
+    --gap-md: 24px;
+    --gap-sm: 12px;
+
+    /* RADIUS */
+    --radius-sm: 12px;
+    --radius-md: 20px;
+    --radius-lg: 24px;
+
+    /* SHADOWS */
+    --shadow-soft: 0 10px 30px rgba(0, 0, 0, 0.25);
+    --shadow-glow: 0 0 40px rgba(20, 184, 196, 0.15);
+
+    /* TRANSITIONS */
+    --transition-fast: 0.2s ease;
+    --transition-base: 0.3s ease;
+    --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);
+}

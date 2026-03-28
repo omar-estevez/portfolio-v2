@@ -1,0 +1,79 @@
+.card__container {
+    position: relative;
+    padding: 2rem;
+    border-radius: 20px;
+    background: linear-gradient(135deg, var(--color-bg-secondary), var(--color-surface));
+    border: 1px solid color-mix(in srgb, var(--color-text-secondary) 10%, transparent);
+
+    &:hover {
+        border: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+        transform: translateY(-6px);
+        transition: transform 2s var(--ease-smooth);
+
+        .item__container {
+            .icon__item {
+                background: color-mix(in srgb, var(--color-primary) 20%, transparent);
+            }
+
+            .url__item {
+                position: relative;
+                z-index: 2;
+                cursor: pointer;
+                gap: 0.75rem;
+            }
+        }
+
+        .shadow {
+            z-index: 1;
+            opacity: 1;
+        }
+    }
+
+    .item__container {
+        display: flex;
+        align-items: start;
+        gap: 1rem;
+
+        .icon__item {
+            width: 3rem;
+            height: 3rem;
+            display: flex;
+            background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+            border-radius: 0.75rem;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+
+        .desc__items {
+            flex: 1 1 0%;
+
+            .title__item {
+                font-size: 1.25rem;
+                margin-bottom: 0.5rem;
+                color: var(--color-text)
+            }
+
+            .desc__item {
+                font-size: 0.875rem;
+                color: var(--color-text-secondary);
+            }
+        }
+
+        .url__item {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--color-primary);
+            font-size: 0.875rem;
+        }
+    }
+
+    .shadow {
+        position: absolute;
+        inset: -1px;
+        background: linear-gradient(135deg, color-mix(in srgb, var(--color-primary) 0%, transparent), color-mix(in srgb, var(--color-primary) 15%, transparent));
+        border-radius: 20px;
+        opacity: 0;
+    }
+}

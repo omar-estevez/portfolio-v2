@@ -1,0 +1,11 @@
+.items__container {
+    text-align: center;
+
+    .top__items {
+        margin-bottom: 1.75rem;
+
+        p {
+            text-align: justify;
+        }
+    }
+}

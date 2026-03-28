@@ -1,0 +1,21 @@
+.item__top {
+    margin-bottom: 4rem;
+
+    .top__p {
+        color: var(--color-text-secondary);
+    }
+}
+
+
+.item__bottom {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 1.25rem;
+    row-gap: 1.25rem;
+}
+
+@media (max-width: 1024px) {
+    .item__bottom {
+        grid-template-columns: auto;
+    }
+}

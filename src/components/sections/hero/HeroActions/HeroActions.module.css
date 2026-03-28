@@ -1,0 +1,5 @@
+.btn__container {
+    display: flex;
+    gap: 0.93rem;
+    flex-wrap: wrap;
+}

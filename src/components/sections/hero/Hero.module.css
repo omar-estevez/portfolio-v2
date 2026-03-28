@@ -1,0 +1,32 @@
+.subcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3.125rem;
+    flex-wrap: wrap;
+}
+
+.item__site {
+    flex: 1;
+}
+
+.title__container {
+    margin-bottom: 2.188rem;
+}
+
+.subitem__header {
+    font-weight: 500;
+    font-size: 4.5rem;
+    color: var(--color-text)
+}
+
+.subitem__title {
+    font-size: 1.5rem;
+    color: var(--color-primary)
+}
+
+.subitem__description {
+    font-size: 1.125rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 2.188rem;
+}

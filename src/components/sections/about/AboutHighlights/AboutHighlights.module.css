@@ -1,0 +1,13 @@
+.highlights__container {
+    display: inline-flex;
+    gap: 8px;
+    padding: 4px 15px;
+    align-items: center;
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-primary) 10%, transparent);
+}
+
+.highlights__text {
+    color: var(--color-primary)
+}

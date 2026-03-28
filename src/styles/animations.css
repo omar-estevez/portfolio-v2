@@ -1,0 +1,31 @@
+.fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.6s ease forwards;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* HOVER CARD */
+.hover-lift {
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.hover-lift:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-soft);
+}
+
+/* GLOW */
+.glow {
+    transition: box-shadow var(--transition-base);
+}
+
+.glow:hover {
+    box-shadow: var(--shadow-glow);
+}

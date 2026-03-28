@@ -1,0 +1,70 @@
+@import "./variables.css";
+
+/* RESET */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-primary);
+    background: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+/* MEDIA */
+img,
+video {
+    max-width: 100%;
+    display: block;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* BUTTON RESET */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+/* INPUT RESET */
+input,
+textarea {
+    font: inherit;
+    border: none;
+    outline: none;
+}
+
+/* CONTAINER */
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* SECTION */
+.section {
+    padding: var(--section-padding) 0;
+}
+
+/* UTILITIES */
+.text-center {
+    text-align: center;
+}
+
+.text-muted {
+    color: var(--color-muted);
+}

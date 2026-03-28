@@ -1,0 +1,23 @@
+.footer__container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-top: 1px solid color-mix(in srgb, var(--color-text-secondary) 10%, transparent);
+
+    .container__items {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .container__items {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}

@@ -1,0 +1,46 @@
+.card__container {
+    margin-bottom: 0.95rem;
+
+    .subitem {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+        background: var(--color-bg-secondary);
+        border-radius: 0.75rem;
+        border: 1px solid color-mix(in srgb, var(--color-text-secondary) 10%, transparent);
+
+        &:hover {
+            border: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+
+            .subitem__icon {
+                background: color-mix(in srgb, var(--color-primary) 20%, transparent);
+            }
+
+            .subitem__text {
+                color: var(--color-text);
+            }
+        }
+
+        .subitem__icon {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+            color: var(--color-primary);
+            font-size: 1.25rem;
+        }
+
+        .subitem__text {
+            color: var(--color-text-secondary);
+        }
+
+        .subitem__text__two {
+            font-size: 0.7rem;
+            color: var(--color-muted);
+        }
+    }
+}

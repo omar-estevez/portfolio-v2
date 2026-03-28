@@ -1,0 +1,26 @@
+.card__container {
+    position: relative;
+    padding: 2rem;
+    border-radius: 20px;
+    background: linear-gradient(135deg, var(--color-bg-secondary), var(--color-surface));
+    border: 1px solid color-mix(in srgb, var(--color-text-secondary) 10%, transparent);
+
+    .title__item {
+        font-size: 1.25rem;
+        margin-bottom: 1.5rem;
+        color: var(--color-primary);
+    }
+
+    .tags__container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .tag__container:hover {
+        color: var(--color-primary);
+        border: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+        transform: scale(1.1);
+        transition: transform 1.5s var(--ease-smooth);
+    }
+}

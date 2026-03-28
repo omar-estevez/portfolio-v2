@@ -1,0 +1,19 @@
+.badge__container {
+    display: inline-flex;
+    gap: 8px;
+    padding: 4px 15px;
+    margin-bottom: 35px;
+    align-items: center;
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--color-primary) 10%, transparent);
+    border: 1px solid color-mix(in srgb, var(--color-primary) 10%, transparent);
+}
+
+.badge__icon {
+    color: var(--color-primary);
+    display: flex;
+}
+
+.badge__text {
+    color: var(--color-primary)
+}

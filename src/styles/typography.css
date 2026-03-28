@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    font-family: var(--font-heading);
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    margin: 0;
+    font-size: 18px;
+    color: var(--color-text-secondary);
+}
+
+/* SMALL TEXT */
+.small {
+    font-size: 14px;
+    color: var(--color-muted);
+}

@@ -1,0 +1,26 @@
+.links__container {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    padding-top: 2.125rem;
+
+    .link__item {
+        padding: 0.875rem;
+        background: var(--color-bg-secondary);
+        border: 1px solid color-mix(in srgb, var(--color-text-secondary) 10%, transparent);
+        font-size: 1.375rem;
+        border-radius: 0.625rem;
+        color: var(--color-text-secondary);
+        width: auto;
+        aspect-ratio: 1 / 1;
+        display: flex;
+
+        &:hover {
+            background: var(--color-secondary-hover);
+            border: 1px solid color-mix(in srgb, var(--color-primary) 30%, transparent);
+            color: var(--color-primary);
+            transform: translateY(-2px) scale(1.05);
+            transition: transform 1.5s var(--ease-smooth);
+        }
+    }
+}
