@@ -22,7 +22,6 @@ export const ProfileCard = () => {
                         setError(true);
                         setLoaded(false);
                     }}
-                    loading="lazy"
                 />
             </div>
             <div>
