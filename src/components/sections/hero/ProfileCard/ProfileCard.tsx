@@ -1,8 +1,8 @@
 import clsx from "clsx";
-import { siteData } from '@/data/site';
 import styles from './ProfileCard.module.css';
-import { TbPointFilled } from "react-icons/tb";
 import myImage from '/images/hero/suit_me.jpg';
+import { siteData } from '@/data/site';
+import { TbPointFilled } from "react-icons/tb";
 import { useState } from "react";
 
 export const ProfileCard = () => {
