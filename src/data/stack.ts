@@ -4,7 +4,7 @@ export const stackCategories: StackCategory[] = [
     {
         id: "frontend",
         title: "Frontend",
-        items: ["React", "TypeScript", "JavaScript", "HTML5", "CSS3", "Sass"],
+        items: ["React", "Angular", "TypeScript", "JavaScript", "HTML5", "CSS3", "Sass"],
     },
     {
         id: "mobile",
