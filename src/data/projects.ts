@@ -17,7 +17,7 @@ export const projects: Project[] = [
             "Reusable components",
             "Service-based UI",
         ],
-        live: "https://dinogoldinternational.dinogoldinternational.workers.dev/",
+        live: "https://dinogoldmobilecarwash.com/",
         github: "https://github.com/omar-estevez/web-DinoGoldInternational",
         featured: true,
     },
