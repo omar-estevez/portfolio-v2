@@ -22,6 +22,43 @@ export const projects: Project[] = [
         featured: true,
     },
     {
+        id: "magic-333-boutique",
+        badge: "Client Project",
+        title: "Magic 333 Boutique",
+        description:
+            "Modern e-commerce web application built for a clothing and footwear boutique focused on product presentation, customer experience, and online sales.",
+        problem:
+            "Helps the business manage products, showcase inventory, and improve customer conversion through a responsive shopping experience and admin dashboard.",
+        stack: [
+            "React",
+            "TypeScript",
+            "Vite",
+            "Zustand",
+            "Axios",
+            "Firebase",
+            "Sass",
+        ],
+        role:
+            "Full ownership — UI/UX design, frontend architecture, authentication flow, dashboard development, state management, Firebase integration, deployment, and responsive optimization.",
+        highlights: [
+            "Authentication system",
+            "Admin dashboard",
+            "Product catalog",
+            "Shopping cart flow",
+            "Global state management with Zustand",
+            "Firebase authentication and database",
+            "Axios API integration",
+            "Responsive UI",
+            "Modern boutique design",
+            "Reusable component architecture",
+            "Optimized user experience",
+            "Protected routes",
+        ],
+        live: "https://magiicstore333.magiicstore333.workers.dev/",
+        github: "https://github.com/omar-estevez/Magiic-store333",
+        featured: false,
+    },
+    {
         id: "123-auto-cash",
         badge: "Client Project",
         title: "123 Auto Cash",
